@@ -1,0 +1,7 @@
+var cTemp = 36;
+alert(getFTemp(cTemp));
+
+function getFTemp(cTemp)
+{
+	return ((9 / 5) * cTemp + 32);
+}

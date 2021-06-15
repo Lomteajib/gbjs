@@ -1,0 +1,5 @@
+var name = "Vasiliy";
+var admin;
+
+    admin=name;
+    console.log(admin);
