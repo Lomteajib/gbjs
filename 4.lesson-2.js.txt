@@ -1,0 +1,50 @@
+    let  a =  Math.floor(Math.random()*16);
+    var x;
+    
+    switch(a)
+    {
+        case 0:
+            x = "Нол";
+            break;
+        case 1:
+            x = "Адын";
+            break;            
+        case 2:
+            x = "Два";
+            break;
+        case 3:
+            x = "Три";
+            break;            
+        case 4:
+            x = "Четыре";
+            break;            
+        case 5:
+            x = "Вышел зайчик погулять";
+            break;            
+        case 6:
+        case 7:
+        case 8:
+        case 9:
+            x = "Какая-то цифра от 6 до 9";
+            break;            
+        case 10:
+            x = "Десять";
+            break;            
+        case 11:
+        case 12:
+            x = "Или 11 или 12";
+            break;            
+        case 13:
+            x = "Три над цать";
+            break;            
+        case 14:
+            x = "Нужно паспорт получать";
+            break;            
+        case 15:
+            x = "Пятнашки";
+            break;        
+        default:
+            x = "Коперфильд!";    
+            break;
+    }
+    console.log(a + " => " + x);

@@ -1,0 +1,14 @@
+console.log(power(2,10));
+
+    function power(val, pow)
+    {
+        var rw = val;
+
+        if (pow>1)
+        {
+            rw  *= power(val,pow-1);
+                     
+        }
+        return rw;
+        
+    }
