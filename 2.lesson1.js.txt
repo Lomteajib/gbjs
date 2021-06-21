@@ -1,0 +1,18 @@
+var a = 3;
+var c = "QQ";
+var d = 'KKK';
+
+
+    {
+        var b='123';
+        console.log(b);
+        let e='!ee';    
+        console.log(e);
+
+    }
+    
+    console.log(a);
+    console.log(b);
+    console.log(c);
+    console.log(d);
+    console.log(e);    
