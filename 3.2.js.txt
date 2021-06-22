@@ -1,0 +1,45 @@
+var goods = [["tv1",100],["tv2",200],["tv3",300],["tv4",400],["tv5",500],["tv6",600],["tv7",700],["tv8",800]];
+var basket=[];
+    
+addToBasket(goods[1]);
+addToBasket(goods[3]);
+addToBasket('Яблоко');
+addToBasket(goods[7]);
+    
+
+
+console.log("Перечень товаров в корзине: " + getBasketGoods());
+console.log("Стоимость товаров в корзине: " + countBasketPrice());
+
+function addToBasket(obj)
+{
+    if (typeof obj === typeof goods) 
+    {
+        basket.push(obj);
+        console.log('Added to basket:' + obj);
+    }
+    else
+    {
+        console.log('Only goods can be appended to basket!');        
+    }
+}
+
+function countBasketPrice()
+{
+    let basketSumm=0;
+    for (let i=0; i< basket.length; i++)
+    {
+        basketSumm+=basket[i][0,1];
+    }
+    return basketSumm;
+}
+    
+function getBasketGoods()
+{
+    var rv='';
+    for (let i=0; i< basket.length; i++)
+    {
+        rv+=basket[i][0,0] + ", ";
+    }
+    return rv.substring(1,rv.length-2);    
+}

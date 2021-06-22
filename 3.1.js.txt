@@ -1,0 +1,14 @@
+var i = 1;
+next: 
+while ( i < 100 )
+{
+
+    i++;    
+    var j = 2;
+    while ( j < i )
+    {
+        if ( i % j == 0 ) continue next;
+        j++;
+     }
+    console.log(i);
+}
