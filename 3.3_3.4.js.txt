@@ -1,0 +1,10 @@
+for (let i=0;tolog(i);i++) {}
+
+function tolog(x)
+{
+    console.log(x);
+    if ( x < 9 ) return true;
+}
+    
+
+    
