@@ -1,0 +1,20 @@
+.chessboard{
+    height: 660px;
+    width: 650px;
+    margin: 30px auto;
+    border: 1px solid black;
+}
+ 
+.block{
+    height: 80px;
+    width: 80px;
+    float: left;
+}
+ 
+.black{
+    background: black;
+}
+ 
+.white{
+    background: white;
+}        
