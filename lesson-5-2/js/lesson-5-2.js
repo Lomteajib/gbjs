@@ -161,3 +161,6 @@ basket.addToBasket(0,4);
 basket.addToBasket(1,1);
 basket.addToBasket(0,5);
 basket.showBasketProducts();
+
+
+//товары с картинками добавлю в 6 задании
