@@ -1,0 +1,28 @@
+    let  a =  Math.floor(Math.random()*16);
+    let  b =  Math.floor(Math.random()*16);
+
+function mathOperation(arg1, arg2, operation)
+{
+    switch(operation)
+    {
+        case "division":
+            return (arg1/arg2);
+        case "multiplication":
+            return (arg1*arg2);
+        case "subtraction":
+            return (arg1-arg2);
+        case "addition":
+            return (arg1+arg2);
+        default:
+            return "Некорректный оператор. Необходимо использовать {addition, subtraction, multiplication или division}";
+    }
+    
+}
+        
+    
+    console.log("a=" + a + "; b=" + b);
+    console.log("Результат сложения: " + mathOperation(a, b, "addition"));
+    console.log("Результат вычитания: " + mathOperation(a, b, "subtraction"));
+    console.log("Результат умножения: " + mathOperation(a, b, "multiplication"));
+    console.log("Результат деления: " + mathOperation(a, b, "division"));
+    console.log("Результат возведения в степень: " + mathOperation(a, b, "degree"));
